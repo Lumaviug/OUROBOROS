@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAMORA</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Open+Sans&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>    <script src="JS/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>    <script src="JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/c3fd22b8e3.js" 
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"> 
+</head>
+<body>
+    <header>
+        <div id="inicio">
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-bars" onclick="menu()" 
+                        style="color: #000000;"></i>
+                    </li>
+                    <li>
+                        <a href="#Descripcion" onclick="cerrarMenu()">Descripción</a>
+                    </li>
+                    <li>
+                        <a href="#Galeria" onclick="cerrarMenu()"> Galería</a>
+                    </li>
+                    <li>
+                        <a href="#Clima" onclick="cerrarMenu()">Clima</a>
+                    </li>
+                    <li>
+                        <a href="#Gastronomia" onclick="cerrarMenu()"> Gastronomía</a>
+                    </li>
+                    <li>
+                        <a href="#Deportes" onclick="cerrarMenu()">Deportes</a>
+                    </li>
+                    <li>
+                        <a href="#Transporte" onclick="cerrarMenu()">Transporte</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <h1>ZAMORA</h1>
+
+            <video src="MEDIA/VIDEO/cabecera_zamora2.mp4"    
+            autoplay="true" muted="true" loop="true"></video>
+        </div>
+    </header>
+
+    <main>
+        <div id="Descripcion">
+            <section id="Marquesina">
+                <div class="marquee">
+                    <ul class="marquee__content">
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                      <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                    </ul>
+                  </div>
+            </section>
+    
+            <h1>DESCRIPCIÓN</h1>
+    
+            <div>
+                <figure>
+                    <img src="MEDIA/IMG/catedral.jpg" alt="">
+                    <figcaption>
+                        <p>
+                            <b>Zamora</b> es un municipio y ciudad española ubicada entre el centro y el noroeste de la 
+                            península ibérica, capital de la provincia homónima, en la comunidad autónoma de <b>Castilla y León</b> 
+                            , cerca de la frontera con Portugal y a una altitud de <b>652 metros</b> sobre el nivel del 
+                            mar.
+                        </p>
+                        <p>
+                            <b>El casco antiguo de la ciudad</b> tiene la calificación de conjunto histórico-artístico desde 
+                            <b>1973</b>. El núcleo principal del mismo —con una disposición muy alargada y en buena parte 
+                            circundado por murallas— se alza sobre una amplia meseta rocosa <b>(la «peña tajada» de la 
+                            que habla el Romancero Viejo)</b> de <b>26</b> a <b>32</b> metros de altura, emplazada al borde 
+                            del <b>Río Duero</b>, que la ciñe por el sur. Estas características le valieron el sobrenombre 
+                            de <b>«la bien cercada»</b>.
+                        </p>
+                        <p>
+                            Cuenta con <b>59.475 habitantes</b> (INE 2022),en un término municipal de <b>149,28 km²</b>. 
+                            Dista 66 km de <b>Salamanca</b>, 122 de <b>León</b>,93 de <b>Valladolid</b>, 253 de <b>Madrid</b> 
+                            y 101 de la capital del distrito luso 
+                            vecino, <b>Bragança</b>, así como 55 de la localidad fronteriza de <b>Miranda de Duero</b>.
+                            Sobresale su conjunto de edificios románicos, formado por los <b>23 templos</b>del término municipal 
+                            y las <b>14 iglesias</b>del casco histórico, datos que sitúan a Zamora como la ciudad de mayor número 
+                            y calidad de templos románicos de Europa, habiéndose solicitado su declaración como Patrimonio 
+                            Europeo. Este patrimonio románico consta, además de la catedral (que presenta un cimborrio con 
+                            decoración exterior de escamas), de otras veinticuatro <b>iglesias</b>, un <b>castillo</b>, 
+                            <b>murallas</b>, un <b>puente</b>, 
+                            dos <b>palacios</b> y nueve c<b>casas</b>, razón por la cual Zamora está considerada 
+                            <b>«la ciudad del Románico».</b>
+                            Un total de <b>quince templos</b>están declarados Bien de Interés Cultural, incluidos algunos de estilos 
+                            posteriores. 
+                        </p> 
+                        <p>
+                            Por otro lado, es asimismo significativo su conjunto de edificios modernistas 
+                            (diecinueve en total), el único de la España interior junto con el de Teruel. 
+                            Entre sus festividades sobresale la celebración de la <b>Semana Santa</b>, 
+                            declarada de <b>Interés Turístico Internacional, y Bien de Interés Cultural.</b>
+                        </p>   
+                        <p>
+                            La ciudad alberga instituciones autonómicas e internacionales, tales como el Museo Etnográfico de 
+                            Castilla y León, el Consejo Consultivo de Castilla y León y la organización de cooperación 
+                            <b>hispano-lusa Fundación Rei Afonso Henriques (FRAH).</b>
+                        </p>
+                        <p>
+                            Fue la primera ciudad del mundo con cobertura global WiFi, recibiendo el proyecto, llamado 
+                            <b>«Zamora Hot City», el «Nobel» de la informática, el Computerworld Honors,</b> aunque el 
+                            servicio dejaba mucho que desear y acabó por desaparecer, dejando sin conexión a unos 1500 usuarios.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+    
+            <section id="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23904.160478131984!2d-5.76513566602128!3d41.5038401023985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd391e3bc094f817%3A0x3fb3a56a82306b25!2sZamora!5e0!3m2!1ses!2ses!4v1701709529737!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </section>
+        </div>
+    
+        <div id="Galeria">
+            <h1>GALERÍA</h1>
+            <div class="carousel">
+                <div class="slide">
+                    <img src="MEDIA/IMG/balborraz.jpg" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="MEDIA/IMG/castillo.jpg" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="MEDIA/IMG/catedral2.jpg" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="MEDIA/IMG/santaclara.jpg" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="MEDIA/IMG/plaza.jpg" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="MEDIA/IMG/viriato.jpg" alt="Imagen 3">
+                </div>
+                <button class="prev"><</button>
+                <button class="next">></button>
+            </div>
+    
+            <section id="lugares">
+                <div class="card">
+                    <h3>CALLE DE BALBORRAZ</h3>
+                    <p>Es una de las calles más antiguas de Zamora. Se encuentra 
+                        ubicada en el casco histórico de la ciudad y tiene su 
+                        inicio en la plaza Mayor. La calle se denomina Balborraz 
+                        del árabe "bab al ras" que se traduce como "puerta de la 
+                        cabeza". 
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Calle_Balborraz">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>CASTILLO DE ZAMORA</h3>
+                    <p>El castillo de Zamora es una fortificación de la loca
+                        lidad de Zamora (Castilla y León, España).
+                        El origen del propio edificio plantea el primer problema. 
+                        Según las crónicas fue mandado construir por Alfonso II 
+                        de Asturias.
+                        <br>
+                        <br>
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Castillo_de_Zamora">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>CATEDRAL DE ZAMORA</h3>
+                    <p>Se inscribe dentro del denominado románico del Duero, 
+                        distinguiéndose por ser la más pequeña y la más antigua 
+                        de las once de la Comunidad de Castilla y León. Fue 
+                        declarada Monumento Nacional por Real Orden de 5 de 
+                        septiembre de 1889. 
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Catedral_de_Zamora">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>PLAZA MAYOR</h3>
+                    <p>Es un espacio de planta rectangular ubicado en la ciudad 
+                        de Zamora (España). Este espacio se ve ocupado en la 
+                        actualidad parcialmente en su lado oeste por la iglesia 
+                        de San Juan de Puerta Nueva. La plaza cambia de nombre 
+                        en numerosas ocasiones. 
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Plaza_Mayor_de_Zamora">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>CALLE DE SANTA CLARA</h3>
+                    <p>Es una calle céntrica de Zamora (España). Es una de las 
+                       calles principales de la ciudad que va desde el parque de 
+                       la Marina Española hasta la plaza Mayor, concurrencia 
+                       habitual de peatones: eje social de la ciudad. Es peatonal 
+                       en todo su recorrido. 
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Calle_de_Santa_Clara">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>PLAZA DE VIRIATO</h3>
+                    <p>Es un espacio urbano en la ciudad de Zamora (España). 
+                       Su actual nombre se debe a la estatua del escultor 
+                       zamorano Eduardo Barrón, la cual está dedicada a Viriato. 
+                       Se encuentra cercana a la plaza Mayor (conectadas por 
+                       la Calle Ramos Carrión).
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Plaza_de_Viriato_(Zamora)">
+                        <div class="pr-btn">+</div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    
+        <div id="Clima">
+            <h1>CLIMA</h1>
+            <canvas id="myChart" width="400" height="200"></canvas>
+        </div>
+    
+        <div id="Gastronomia">
+            <h1>GASTRONOMÍA</h1>
+            <section id="restaurantes">
+                <a href="https://barlobodesde1957.negocio.site/" class="card">
+                        <h3>BAR EL LOBO</h3>
+                        <img src="MEDIA/IMG/pinchos/lobo.jpg">
+                        <p>Este bar zamorano destaca por los pinchos
+                            morunos que salen de sus cocinas, al grito
+                            de "uno que si, dos que no", refiriéndonos
+                            al picante de éstos.
+                        </p>
+                </a>
+                <a href="http://www.barcaballero.com/" class="card">
+                    <h3>BAR EL CABALLERO</h3>
+                    <img src="MEDIA/IMG/pinchos/caballero.jpg">
+                    <p>Lugar con reconocido renombre y menciones de 
+                        cocina, destacando por sus platos de patatas 
+                        mixtas y de chipirones fritos con alioli.
+                    </p>
+                </a>
+                <a href="https://www.tripadvisor.es/Restaurant_Review-g262064-d5794747-Reviews-Bar_Chillon-Zamora_Province_of_Zamora_Castile_and_Leon.html" class="card">
+                    <h3>BAR CHILLÓN</h3>
+                    <img src="MEDIA/IMG/pinchos/chillon.jpg">
+                    <p>Famoso bar de la ciudad por su tortilla de 
+                        patata con salsa de callos.
+                    </p>
+                </a>
+                <a href="https://www.instagram.com/azemurcraftburger/?ref=8Hj6y6ZiAIc0pN" class="card">
+                    <h3>EL AZEMUR</h3>
+                    <img src="MEDIA/IMG/pinchos/azemur.jpg">
+                    <p>Uno de los bares más antiguos de la ciudad 
+                        que destaca por sus hamburguesas en pan rústico
+                        y completamente caseras.
+                    </p>
+                </a>
+                <a href="https://www.tripadvisor.es/Restaurant_Review-g4891359-d2318675-Reviews-Bodega_Antigua-El_Perdigon_Province_of_Zamora_Castile_and_Leon.html" class="card">
+                    <h3>EL PERDIGÓN</h3>
+                    <img src="MEDIA/IMG/pinchos/perdigon.jpg">
+                    <p>Pertenece a las bodegas del pueblo "El Perdigón",
+                        famoso por los asados.
+                    </p>
+                </a>
+                <a href="http://www.loscaprichosdemeneses.com/" class="card">
+                    <h3>LOS CAPRICHOS DE MENESES</h3>
+                    <img src="MEDIA/IMG/pinchos/meneses.jpg">
+                    <p>Restaurante situado en la Plaza Mayor de la ciudad,
+                        famoso por sus blinis de foie.
+                    </p>
+                </a>
+                <a href="https://www.tripadvisor.es/Restaurant_Review-g262064-d8617101-Reviews-Churreria_Malu-Zamora_Province_of_Zamora_Castile_and_Leon.html" class="card">
+                    <h3>CHURRERÍA MALÚ</h3>
+                    <img src="MEDIA/IMG/pinchos/churros.jpg">
+                    <p>Churrería con numerosos premios nacionales
+                        a la calidad y nombrada como una de las mejores
+                        churrerías de España.
+                    </p>
+                </a>
+                <a href="https://marlott.es/carta/" class="card">
+                    <h3>EL MARLOTT</h3>
+                    <img src="MEDIA/IMG/pinchos/marlot.jpg">
+                    <p>Bar chill-out en pleno centro de la ciudad,
+                        conocido por sus cafés gourmet y sus postres.
+                    </p>
+                </a>
+                <a href="https://www.instagram.com/lagolosazamora/?hl=es" class="card">
+                    <h3>LA GOLOSA</h3>
+                    <img src="MEDIA/IMG/pinchos/golosa.jpg">
+                    <p>Local de postres originales sin lactosa con 
+                        mayor renombre.
+                    </p>
+                </a>
+            </section>
+        </div>
+    
+        <div id="Deportes">
+            <h1>DEPORTES</h1>
+            <div>
+                <figure data-aos="fade-up">
+                  <img src="MEDIA/IMG/deportes/futbol.jpg" alt="Fútbol">
+                  <figcaption data-aos="fade-up">
+                    <h3>ZAMORA CLUB DE FÚTBOL</h3>
+                    <p>El Zamora Club de Fútbol, S. A. D. es el club de fútbol de España más relevante de la ciudad de Zamora, ubicada en la provincia homónima en la comunidad de Castilla y León y juega en la Segunda Federación.</p>
+                  </figcaption>
+                </figure>
+                <figure data-aos="fade-up">
+                  <img src="MEDIA/IMG/deportes/balonmano.jpg" alt="Balonmano">
+                  <figcaption data-aos="fade-up">
+                    <h3>CLUB BALONMANO ZAMORA</h3>
+                    <p>El Club Balonmano Zamora, conocido por motivos de patrocinio como BM Zamora Enamora, es un club español de balonmano de la ciudad de Zamora, España. Fue fundado en 2001 y actualmente participa en División de Honor Plata.</p>
+                  </figcaption>
+                </figure>
+                <figure data-aos="fade-up">
+                  <img src="MEDIA/IMG/deportes/baloncesto.jpg" alt="Baloncesto">
+                  <figcaption data-aos="fade-up">
+                    <h3>CLUB BALONCESTO ZAMORA</h3>
+                    <p>El Club Baloncesto Zamora, conocido por motivos de patrocinio como Zamora Enamora, es un club de baloncesto español con sede en Zamora. Actualmente compite en la LEB Plata. Disputa sus encuentros en el Pabellón Ángel Nieto, con capacidad para 2.100 personas.</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+
+        <section id="comprar">
+            <a href="#target-content" id="sub_btn">COMPRAR ENTRADAS PARA EL SIGUIENTE EVENTO DEPORTIVO</a>
+            <div id="target-content">
+                <a href="#" class="close"></a>
+                    <div id="target-inner">
+                        <h2>ERROR...Lo sentimos:(</h2>
+                        <p>Estamos tratando de solucionar este problema para que 
+                            puedas tener las entradas necesarias a tu disposicion.
+                            Lamentamos las molestias. 
+                        </p>
+                    </div>
+            </div>
+        </section>
+    
+        <div id="Transporte">
+            <h1>TRANSPORTE</h1>
+            <p>Para poder acceder a esta pequeña ciudad del Románico,
+                contamos de varias opciones que te dejamos a 
+                continuación:
+            </p>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <input type="checkbox" id="accordion-item-1" hidden>
+                    <label for="accordion-item-1" class="accordion-item-title"><b>TREN</b></label>
+                    <div class="accordion-item-content">
+                        <div class="ciudades1">
+                            <p>
+                                <b>
+                                    A Coruña, Albacete, Antequera, Barcelona, 
+                                    Bilbao, Ciudad Real, Córdoba, Cuenca, 
+                                    Ferrol, Figueres Vilafont, Girona, Guadalajara,
+                                    Huelva, Huesca, Madrid, Málaga, Monforte de Lemos
+                                    Murcia, Ourense, Padrón, Ponferrada, Redondela
+                                    Requena Utiel, Segovia, Sevilla, Tarragona
+                                    Valencia, Valladolid, Vigo, Zaragoza.
+                                </b>
+                            </p>
+                            <a href="https://www.renfe.com/es/es?s_kwcid=AL!11457!3!!!!x!!&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8T5DqvvzuqaMbWXJyCi9thnm05dkpNrt4y_m3wa9s6jWJSUutHjRP0aAiu-EALw_wcB">
+                                <p>Para más información, <b>pulse aquí</b></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="checkbox" id="accordion-item-2" hidden>
+                    <label for="accordion-item-2" class="accordion-item-title"><b>AUTOBÚS</b></label>
+                    <div class="accordion-item-content">
+                        <div class="ciudades2">
+                            <p>
+                                <b>
+                                    Adanero, Gutierremuñoz, Labajos, Madrid, Villacastín,
+                                    Villalba, Salamanca.
+                                </b>
+                                <a href="https://www.avanzabus.com/?utm_source=googleadwords&utm_medium=search&utm_campaign=marca&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Ql7ADHlWS1Q2N8deOBx7NCyZ6irhFpyHBIbBtYaKIBvE6jd494Mn8aApLnEALw_wcB">
+                                    <p>Para más información, <b>pulse aquí</b></p>
+                                </a>
+                            </p>
+                            <p>
+                                <b>
+                                    Arroyo de la Encomienda, Coreses, Fresno de la Ribera,
+                                    Montelareina, Morales de Toro, San Miguel del Pino,
+                                    Simancas, Tordesillas, Toro, El Montico, Valladolid,
+                                    Villaester, Villamuriel.
+                                </b>
+                                <a href="https://www.autocareslaregional.com/">
+                                    <p>Para más información, <b>pulse aquí</b></p>
+                                </a>
+                            </p>
+                            <p>
+                                <b>
+                                    Bilbao, Oviedo, Gijón, Burgos, Barcelona, Vila Real 
+                                    (Portugal), Sevilla.
+                                </b>
+                                <a href="https://www.alsa.es/">
+                                    <p>Para más información, <b>pulse aquí</b></p>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="Marquesina">
+            <div class="marquee">
+                <ul class="marquee__content">
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull; </li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                  <li class="marquee__item">&nbsp;Dejaremos de ser la España vaciada &bull;</li>
+                </ul>
+              </div>
+        </section>
+
+        <section id="footer">
+            <div class="final">
+                <h3>AYUNTAMIENTO DE ZAMORA</h3>
+                <p>Plaza Mayor , s/n.</p>
+                <p>49002, Zamora.</p>
+            </div>
+            <div class="final">
+                <h3>CONTACTO</h3>
+                <p><b>Teléfono:</b> 980 54 87 00</p>
+                <p><b>Fax</b> 980 533 442</p>
+                <a href="http://www.zamora.es/">
+                    <p><b>E-mail:</b> info@zamora.es</p>
+                </a>
+            </div>
+            <div class="final">
+                <h3>SOBRE ESTA WEB</h3>
+                <p>Lydia Sánchez Corral</p>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <p><b>E-mail:</b> lydia.sanchezc8@gmail.com</p>
+                </a>
+                <p><b>Teléfono:</b> 640287059</p>
+            </div>
+        </section>
+    
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</body>
+</html>
